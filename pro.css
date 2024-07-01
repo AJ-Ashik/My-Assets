@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Kanit', sans-serif;
+	text-decoration: none;
+}
+.team{
+	position: relative;
+	width: auto;
+	height: 100vh;
+	background: radial-gradient(#e31ce3, #1b051d);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.center h1{
+	color: #fff;
+	font-size: 4rem;
+	text-align: center;
+}
+.team-content{
+	width: 100%;
+	width: 350px;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+.team-content img{
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+.box-main{
+	padding: 16px;
+	background: #1b1229;
+	border-radius: 15px;
+	transition: all .40s ease;
+}
+.box-main:hover{
+	transform: translateY(-10px);
+	border-top: 2px solid rgb(234, 54, 54);
+	cursor: pointer;
+}
+h3{
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 3px;
+}
+h4{
+	font-size: 25px;
+	font-weight: 600;
+	color: #ecf904;
+}
+.box-sup{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 6rem;
+	margin-top: 1.5rem;
+	padding: 16px;
+	background: #4e5462;
+	border-radius: 15px;
+}
+.box-sup img{
+	width: 75px;
+	height: auto;
+	border-radius: 15px;
+	margin-bottom: 1px;
+}
+
+/* responsive fo iPhone SE */
+@media screen and (max-width: 660px){
+	.center h1{
+		font-size: 3rem;
+	}
+	.team-content{
+		margin-top: 0.5rem;
+	}
+}
+
